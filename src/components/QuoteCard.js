@@ -1,18 +1,20 @@
 import React from 'react';
+import './QuoteCard.css';
 
 
-const QuoteCard = () => {
+
+const QuoteCard = (props) => {
     return (
       <figure className="QuoteCard">
-        <img {props.image} alt = {props.character}/>
+        <img src = {props.image} alt = {props.character}/>
         <figcaption>
-        <blockquote>
-        {props.quote}
-        </blockquote>
-        <cite>{props.character}</cite>
+          <blockquote>
+            {props.quote}
+          </blockquote>
+          <cite>{props.character}</cite>
       </figcaption>
     </figure>
   )
-  }
+}
 
   export default QuoteCard;
