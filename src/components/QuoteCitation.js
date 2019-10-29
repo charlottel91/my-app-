@@ -11,10 +11,10 @@ function QuoteCitation({ simpson }) {
         />
         <ul>
           <li>
-            Character: {simpson.character}{' '}
+            Character: {simpson.character}
           </li>
           <li>
-            Quote: {simpson.quote}{' '}
+            Quote: {simpson.quote}
           </li>
         </ul>
       </div>
